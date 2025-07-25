@@ -1,0 +1,9 @@
+
+# Dependencies
+/node_modules
+/scripts/node_modules
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
