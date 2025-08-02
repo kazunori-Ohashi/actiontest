@@ -13,8 +13,8 @@ coverage/          export-ignore
 Thumbs.db          export-ignore
 
 # (任意) 公開に含めたくない場合だけ有効化
-# ai_news_articles/  export-ignore
-# output.txt         export-ignore
+ai_news_articles/  export-ignore
+output.txt         export-ignore
 
 # このファイル自体は出さない
 .gitattributes     export-ignore
