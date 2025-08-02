@@ -1,24 +1,23 @@
-# 秘密・環境（基本は持っていない想定だが保険）
+# secrets / env
 .env               export-ignore
 .env.*             export-ignore
 
-# 生成物・依存
+# deps / build / logs
 node_modules/      export-ignore
 dist/              export-ignore
 coverage/          export-ignore
 *.log              export-ignore
 
-# 内部用・大きなサンプル（公開不要なら有効化）
-docs/test_spec/    export-ignore
-docs/requirements/ export-ignore
-ai_news_articles/  export-ignore     # ← 公開に含めるならこの行を消す
-
-# OS・IDE
+# OS
 .DS_Store          export-ignore
 Thumbs.db          export-ignore
 
-# READMEに元コミットを刻印する場合
-README.md          export-subst
+# (任意) 公開に含めたくない場合だけ有効化
+# ai_news_articles/  export-ignore
+# output.txt         export-ignore
 
-# このファイル自体は公開に含めない
+# このファイル自体は出さない
 .gitattributes     export-ignore
+
+# README に刻印する場合だけ有効化
+# README.md          export-subst
